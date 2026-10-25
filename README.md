@@ -1,10 +1,10 @@
-# Identifying Healthcare Entities using Named Entity Recognition (NER) and Conditional Random Fields (CRF) under Syntactic processing
+# Named Entity Recognition (NER) in Healthcare Data using Conditional Random Fields (CRF) ML Algorithm under Syntactic processing
 
 ## Overview
 
 This project implements a **custom Named Entity Recognition (NER)** pipeline for identifying **diseases** and **treatments** in healthcare text. It uses **spaCy** for part-of-speech (POS) tagging and **Conditional Random Fields (CRF)** for token-level sequence labeling. Predicted entities are then grouped into a disease-to-treatment mapping.
 
-The implementation is provided in the Jupyter notebook [`SurendranathDuvvuru_SyntacticProcessing_Assignment.ipynb`](SurendranathDuvvuru_SyntacticProcessing_Assignment.ipynb).
+The implementation is provided in the Jupyter notebook named: SurendranathDuvvuru_SyntacticProcessing_Assignment.ipynb.
 
 ## Objectives
 
@@ -41,9 +41,7 @@ The entity labels used in the notebook are:
 | --- | --- |
 | `D` | Disease |
 | `T` | Treatment |
-| `O` / `0` | Other / non-entity token (verify encoding in your dataset) |
-
-**Note:** The extraction logic explicitly skips the string `'0'`; check the dataset's actual non-entity label before running or adapting it. The four dataset files are **not embedded in the notebook** and must be supplied separately.
+| `O` | Other / non-entity token |
 
 ## Project Workflow
 
@@ -117,8 +115,7 @@ The assignment also mentions **hereditary retinoblastoma**. The final notebook c
 
 ## Author
 
-**Surendranath Duvvuru**  
-GitHub: [SurendranathDuvvuru](https://github.com/SurendranathDuvvuru)
+Surendranath Duvvuru
 
 ## Disclaimer
 
